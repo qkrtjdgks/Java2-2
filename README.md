@@ -5,5 +5,3 @@
 sync Changes 2
 git user.name "qkrtjdgks"
 git user.email "qkrtjdgks33@naver.com"
-싱크 맞추기
-확인 끝
