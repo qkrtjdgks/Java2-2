@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Season{
+public class season{
     public static void main(String[] args) {
-        Scammer scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("월(1~12)을 입력하시오");
-        int month = scanner.nextint();
+        System.out.println("월(1~12)을 입력하시오");
+        int month = scanner.nextInt();
         if(3 <=month && month <= 5 ){
             System.out.print("봄입니다.");
         }
@@ -17,5 +17,8 @@ public class Season{
         else{
             System.out.print("겨울입니다.");
         }
+
+        scanner.close();
+
     }
 }
